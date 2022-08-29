@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+video {
+        height: 100vh;
+        width: 100%;
+        object-fit: fill; // use "cover" to avoid distortion
+        position: absolute;
+    }
