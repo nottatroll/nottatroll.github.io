@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> ( ͡° ͜ʖ ͡°) </title>
+</head>
+
+   <body>
+       <video autoplay loop width="100%">
+
+    <source src="video.mp4"
+            type="video/mp4">
+          lmaoo
+</video>
+      <script>
+         const currentURL = "video.mp4";
+         const pageTitle = "...";
+
+         function setTitle() {
+            document.title = pageTitle;
+         }
+
+         function redirect() {
+            window.location.href = currentURL;
+         }
+
+         function onload() {
+            setTitle();
+            redirect();
+         }
+
+         window.onload = onload();
+       </script>
+   </body>
+</html>
